@@ -133,7 +133,7 @@ nav>ul>li>a:hover{
 	background-image: linear-gradient(to top,#353535,#292929);
 }
 
-li>ul{
+nav li>ul{
 	display: none;
 	position: absolute;
 	top: 46px;
@@ -144,7 +144,7 @@ nav>ul>li:hover ul{
 	background: #353535;
 }
 
-li>ul>li{
+nav li>ul>li{
 	border-top: 1px solid #fff;
 	width: 125px;
 }
@@ -269,6 +269,101 @@ address a{
 	background: url(../img/bg-addres.png) no-repeat 0 50%;
 	font-style: normal;
 }
+
+.right-col{
+	width: 678px;
+	margin-right: 20px;
+	float: right;
+}
+
+.search-block{
+	border: 1px solid #6b8492;
+	margin-bottom: 30px;
+}
+
+.search-form{
+	float: right;
+}
+
+.search-form input[type=text]{
+	background: transparent;
+	border: none;
+}
+
+.search-form input[type=button]{
+	color: #fff;
+	border: none;
+	background: #6b8492;
+	padding: 8px 20px;
+	margin-right: -1px;
+}
+
+.bread-crumbs{
+	padding: 6px 14px;
+	background: url(../img/bg-crumbs.png) no-repeat 100% 0 #fff;
+	width: 405px;
+}
+
+.products-list>li{
+	display: inline-block;
+	margin: 0 10px 45px 0;
+	min-height: 294px;
+	float: left;
+	position: relative;
+	border: 1px solid transparent;
+}
+
+.products-list>li:hover,.products-list>li.active{
+	border: 1px solid #6b8492;
+	cursor: pointer;
+	background: url(../img/basket-icon.png) no-repeat 136px 267px;
+}
+
+.products-list>li:nth-child(4n){
+	margin-right: 0;
+}
+
+.products-list>li>img{
+	border: 1px solid #6b8492;
+}
+
+.product{
+	padding-left: 10px;
+}
+
+.old-price{
+	color: #f36720;
+	text-decoration: line-through;
+}
+
+.price{
+	position: absolute;
+	left: 11px;
+	bottom: 10px;
+	color: #6b8492;
+	font-size: 18px;
+}
+
+.special{
+	position: absolute;
+	top: 10px;
+	right: -1px;
+	color: #fff;
+}
+
+.special .red{
+	background: url(../img/red.png) no-repeat 0 0;
+	padding: 3px 15px;
+}
+
+.special .green{
+	background: url(../img/green.png) no-repeat 0 0;
+	padding: 3px 8px;
+}
+
+
+
+
 
 
 /*CLEARFIX*/
